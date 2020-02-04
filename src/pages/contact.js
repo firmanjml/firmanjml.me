@@ -20,8 +20,9 @@ const ContactPage = () => {
             <h1>Contact</h1>
             <p>You can reach me via <a href={`https://www.twitter.com/${data.site.siteMetadata.twitterHandle}`} target='_blank' rel="noopener noreferrer">{data.site.siteMetadata.twitterHandle}</a> on Twitter or.. </p>
             <ul>
+                <li>Instagram <a href="https://www.instagram.com/firmanjml/" target='_blank' rel="noopener noreferrer">@firmanjml</a></li>
                 <li>Email <a href="mailto:firman.jamal96@gmail.com">firman.jamal96@gmail.com</a></li>
-                <li>Fiverr <a href="https://www.fiverr.com/firmanjamal">@firmanjamal</a></li>
+                <li>Fiverr <a href="https://www.fiverr.com/firmanjamal" target='_blank' rel="noopener noreferrer">@firmanjamal</a></li>
             </ul>
         </Layout>
     )
