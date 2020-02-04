@@ -20,8 +20,6 @@ const IndexPage = () => {
                 <li>System Analysis & Design</li>
                 <li>Basic Data Communication & Networking</li>
                 <li>Data Centre & Cloud Management</li>
-                <li>Basic Mobile UI/UX</li>
-                <li>Web/Mobile Application Development</li>
                 <li>IT Security</li>
             </ol>
             <h3>The skills that I have acquired during my free time</h3>
@@ -30,6 +28,9 @@ const IndexPage = () => {
                 <li>Designing PCB</li>
                 <li>AutoCAD Fusion 360</li>
                 <li>3D Print</li>
+                <li>Basic Mobile UI/UX</li>
+                <li>Web/Mobile Application Development</li>
+                <li>Basic Software Reverse Engineering</li>
             </ol>
             
             <p>Need a developer or advice for Mobile Development? <Link to="/contact">Contact me</Link></p>
