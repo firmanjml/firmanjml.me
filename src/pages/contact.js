@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, useStaticQuery } from 'gatsby';
 
-import Head from "../components/head";
+import Title from "../components/title";
 import Layout from "../components/layout";
 
 const ContactPage = () => {
@@ -16,7 +16,7 @@ const ContactPage = () => {
     `)
     return (
         <Layout>
-            <Head title="Contact"/>
+            <Title text="Contact"/>
             <h1>Contact</h1>
             <p>You can reach me via <a href={`https://www.twitter.com/${data.site.siteMetadata.twitterHandle}`} target='_blank' rel="noopener noreferrer">{data.site.siteMetadata.twitterHandle}</a> on Twitter or.. </p>
             <ul>

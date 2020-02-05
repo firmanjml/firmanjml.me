@@ -3,7 +3,7 @@ import { Link, useStaticQuery, graphql } from 'gatsby';
 
 import Layout from "../components/layout";
 import blogStyle from '../components/blog.module.scss';
-import Head from "../components/head";
+import Title from "../components/title";
 
 const BlogPage = () => {
     const data = useStaticQuery(graphql`
@@ -21,7 +21,7 @@ const BlogPage = () => {
     `);
     return (
         <Layout>
-            <Head title="Blog" />
+            <Title text="Blog" />
             <h1>Blogs</h1>
             {
                 data.allContentfulBlogPost.edges.length > 0 ?
