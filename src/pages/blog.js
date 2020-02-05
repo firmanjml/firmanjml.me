@@ -2,7 +2,7 @@ import React from "react"
 import { Link, useStaticQuery, graphql } from 'gatsby';
 
 import Layout from "../components/layout";
-import blogStyle from '../components/blog.module.scss';
+import blogStyle from '../components/modules/blog.module.scss';
 import Title from "../components/title";
 
 const BlogPage = () => {
