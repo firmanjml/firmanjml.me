@@ -27,12 +27,23 @@
         font-size: .8rem;
         font-style: bold;
     }
+
+}
+
+
+blockquote {
+    border-left: 3px solid #1a82be;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1em;
+    display: block;
+    word-wrap: break-word;
 }
 
 pre {
     background: #f4f4f4;
     border: 1px solid #ddd;
-    border-left: 3px solid grayscale($color: #000000);
+    border-left: 3px solid #1a82be;
     color: #666;
     page-break-inside: avoid;
     font-family: monospace;
